@@ -5,11 +5,11 @@ Our project aims to provide an efficient and user friendly way to monitor public
 
 <b>System Description:</b>
 
-1 The User first requests for tracking information of a particular bus.</br>
-2 This request is then addressed by the Google App engine and it is trigerred to pull out data specific for that bus.</br>
-3 In the mean time the InVehicle module continuously collects data from the GPS modules and filters out all the relevant information needed. The Bus-Stand module also keeps the Invehicle module updated about the last bus stop crossed by any particular bus. All the information is then consolidated by the InVehicle module and is transmitted to the Internet using the Google App Engine Back-End script. </br>
-4 Now all the relevant information requested is sent to the user.</br>
-5 This data which now includes GPS co-ordinates and a unique busID is now mapped on Google Maps using the Maps API.</br>
-6 Using an appropriate algorithm, ETA is calculated.The ETA is calculated with the help of the speed of the bus which is transmitted by the GPS module.</br>
-7 This data is then displayed on the user device.</br>
-8 Also, there is a display mounted in the bus which gives information about the next scheduled stop and ETA for the same.</br>
+ 1 The User first requests for tracking information of a particular bus.</br>
+ 2 This request is then addressed by the Google App engine and it is trigerred to pull out data specific for that bus.</br>
+ 3 In the mean time the InVehicle module continuously collects data from the GPS modules and filters out all the relevant information needed. The Bus-Stand module also keeps the Invehicle module updated about the last bus stop crossed by any particular bus. All the information is then consolidated by the InVehicle module and is transmitted to the Internet using the Google App Engine Back-End script. </br>
+ 4 Now all the relevant information requested is sent to the user.</br>
+ * This data which now includes GPS co-ordinates and a unique busID is now mapped on Google Maps using the Maps API.</br>
+ 5 Using an appropriate algorithm, ETA is calculated.The ETA is calculated with the help of the speed of the bus which is transmitted by the GPS module.</br>
+ 6 This data is then displayed on the user device.</br>
+ 7 Also, there is a display mounted in the bus which gives information about the next scheduled stop and ETA for the same.</br>
