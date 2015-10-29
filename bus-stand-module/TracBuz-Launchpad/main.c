@@ -19,7 +19,7 @@ int main(void) {
 	while (1) {
 
 		uart_gets(test_string, 8);
-		if (test_string == "A")
+		if (test_string[0] == "A")
 		{
 			//Code here to Set Port 2 to 1
 			P2OUT= 0xFF;
@@ -30,4 +30,5 @@ int main(void) {
 			P2OUT = 0;
 		}
 
+}
 }
